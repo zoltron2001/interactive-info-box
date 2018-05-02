@@ -1,6 +1,8 @@
 # interactive-info-box
 
-A simple script to give info boxes basic interactivity.
+A simple script to give info boxes show/hide functionality. Compatible with multiple info boxes per site.
+
+Only one info box is currently permitted per wrapper. jQuery is only being used for the jQuery(document).ready function and could just as easily be replaced with the equivelant vanilla JavaScript.
 
 Here it is with the info box hidden:
 
@@ -10,7 +12,7 @@ When a user clicks the info icon, the info box is revealed.
 
 ![alt text](images/show.png "info box visible")
 
-The user can click either the info or close icon to hide the box again. 
+The user can select either the info or close icon to hide the box again. 
 
 **HTML**
 
@@ -23,9 +25,7 @@ Assign the following classes to the appropriate elements:
 
 **CSS**
 
-Define the info boxes' global active/hidden styles, for example:
+Define the info boxes' sitewide active/hidden styles, for example:
 
    .info-box { display: block }  
-   .info-box .hidden { display: none }  
-
-**NOTE:** only one info box is currently permitted per wrapper
+   .info-box .hidden { display: none } 
