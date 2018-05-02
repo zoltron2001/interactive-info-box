@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
                 .info-icon
                 .info-close
         CSS
-            Define the info boxes' global active/hidden styles, for example:
+            Define the info boxes' sitewide active/hidden styles, for example:
                 .info-box { display: block }
                 .info-box .hidden { display: none }
         NOTE: only one box/icon pair is currently permitted per wrapper
